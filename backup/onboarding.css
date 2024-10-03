@@ -1,0 +1,45 @@
+body {
+    background: #111;
+}
+
+.paragraaf {
+    color: white;
+    font-family: Figtree;
+
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.blueicon {
+    position: relative;
+
+    top: 3vh;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+h1 {
+    z-index: 1;
+    position: absolute;
+    left: 45.4vw;
+    top: 41vh;
+
+    width: 5vw;
+    height: 5vw;
+
+    margin:0;
+
+    color: #F5F5F5;
+    font-family: 'Calvino-Grande-Extrabold-trial';
+    font-size: 5vw;
+    line-height: 3.8vw;
+}
+
+.starten {
+
+}

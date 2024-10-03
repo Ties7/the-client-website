@@ -1,0 +1,52 @@
+.task-header {
+    position: relative;
+
+    width: 100vw;
+    height: 32rem;
+
+    margin-top: 2rem;
+    overflow: hidden;
+}
+
+.task-header > img {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+
+    height: 100%;
+    width: auto;
+}
+
+.task-article {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
+    white-space: nowrap;
+}
+
+.task-btn {
+    position: absolute;
+    left: 50%;
+    bottom: 2rem;
+    transform: translate(-50%);   
+}
+
+@media only screen and (max-width: 600px) {
+    .task-header {
+        margin-top: 8rem;
+        height: 24rem;
+    }
+
+    .task-header > img {
+        left: -8rem;
+        transform: none;
+    }
+
+    .task-article {
+        position: static;
+        transform: none;
+        padding-left: 1.3rem;
+    }
+}
