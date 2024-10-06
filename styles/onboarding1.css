@@ -42,6 +42,8 @@ body {
     bottom: 2rem;
     transform: translate(-50%);  
     z-index: 1; 
+
+    cursor: pointer;
 }
 
 /* layout responsive voor telefoon */

@@ -1,3 +1,9 @@
+/* page-load animation */
+body {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
 /* parent container van img */
 .task-header {
     position: relative;
@@ -19,7 +25,7 @@
     height: 100%;
     width: auto;
 
-    opacity: 25%;
+    opacity: 30%;
 }
 
 /* lap tekst */
