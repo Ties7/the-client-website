@@ -1,13 +1,21 @@
+/* page-load animation */
+body {
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+/* parent container van img */
 .task-header {
     position: relative;
 
     width: 100vw;
     height: 32rem;
 
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     overflow: hidden;
 }
 
+/* img child */
 .task-header > img {
     position: absolute;
     left: 50%;
@@ -18,21 +26,25 @@
     width: auto;
 }
 
+/* lap tekst */
 .task-article {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-
-    white-space: nowrap;
+    bottom: 6.3em;
+    
+    width: 20em;
 }
 
 .task-btn {
     position: absolute;
     left: 50%;
     bottom: 2rem;
-    transform: translate(-50%);   
+    transform: translate(-50%);  
+    z-index: 1; 
 }
 
+/* layout responsive voor telefoon */
 @media only screen and (max-width: 600px) {
     .task-header {
         margin-top: 8rem;
