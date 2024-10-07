@@ -1,0 +1,72 @@
+/* page-load animation */
+body {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+header {
+    font-family: calvino grande;
+    position: absolute;
+    left: 50%;
+    bottom: 25%;
+    transform: translate(-50%);
+    width: 20.125rem;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+h2 {
+    margin: 0;
+    font-size: 2em;
+    font-family: calvino grande;
+
+    position: absolute;
+    left: 50%;
+    top: 2em;
+    transform: translate(-50%);
+    width: 20.125rem;
+}
+
+p {
+    margin-top: 1;
+}
+
+.task-article {
+    font-family: figtree;
+}
+
+/* button arrow */
+.arrow {
+    color: white;
+    outline: 1px solid white;
+    background: none;
+
+    padding: 0.9rem 0.9rem;
+    border-radius: 9999rem;
+
+    border: none;
+}
+
+.button {
+    /* positioneren */
+    position: absolute;
+    left: 50%;
+    bottom: 2rem;
+    transform: translate(-50%);
+    z-index: 1;
+}
+
+.left {
+    margin-right: 0.7em;
+}
+
+/* progressionbar */
+.progressionbar {
+    position: absolute;
+    left: 50%;
+    bottom: 80%;
+    transform: translate(-50%);
+}
