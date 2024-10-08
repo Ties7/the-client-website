@@ -1,7 +1,9 @@
 /* page-load animation */
 body {
-    opacity: 0;
-    transition: opacity 1s;
+    /* opacity: 0;
+    transition: opacity 1s; */
+
+    overflow: hidden;
 }
 
 header {
@@ -48,6 +50,7 @@ p {
     border-radius: 9999rem;
 
     border: none;
+    cursor: pointer; 
 }
 
 .button {
@@ -69,4 +72,30 @@ p {
     left: 50%;
     bottom: 80%;
     transform: translate(-50%);
+}
+
+/* redmesh */
+.redmesh {
+    position: absolute;
+    /* top: 45em;
+    right: 45em; */
+
+    bottom: -7em;
+    right: -7em;
+
+    filter: blur(5em);
+    opacity: 50%;
+}
+
+/* layout responsive voor telefoon */
+@media only screen and (max-width: 600px) {
+    .task-header {
+        margin-top: 8rem;
+        height: 24rem;
+    }
+
+    .task-header > img {
+        left: -8rem;
+        transform: none;
+    }
 }

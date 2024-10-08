@@ -16,7 +16,7 @@ body {
 }
 
 /* img child */
-.task-header > img {
+.task-header img {
     position: absolute;
     left: 50%;
     top: 0;
