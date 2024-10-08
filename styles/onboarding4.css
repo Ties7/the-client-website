@@ -1,8 +1,5 @@
 /* page-load animation */
 body {
-    opacity: 0;
-    transition: opacity 1s;
-
     overflow: hidden;
 }
 
@@ -10,7 +7,7 @@ header {
     font-family: calvino grande;
     position: absolute;
     left: 50%;
-    bottom: 25%;
+    top: 60%;
     transform: translate(-50%);
     width: 20.125rem;
 }
@@ -30,10 +27,6 @@ h2 {
     top: 2em;
     transform: translate(-50%);
     width: 20.125rem;
-}
-
-p {
-    margin-top: 1;
 }
 
 .task-article {
@@ -73,28 +66,34 @@ p {
     transform: translate(-50%);
 }
 
-/* redmesh */
-.redmesh {
+/* yellowmesh */
+.yellowmesh {
     position: absolute;
-    /* top: 45em;
-    right: 45em; */
+    left: 40%;
+    bottom: 10%;
+    transform: translate(-50%);
 
-    bottom: -7em;
-    right: -7em;
+    filter: blur(10em);
+    
+    z-index: -1;
+}
 
-    filter: blur(5em);
-    opacity: 50%;
+/* yellowmesh fade-in */
+.yellowmesh {
+    opacity: 0.8;
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
 }
 
 /* layout responsive voor telefoon */
 @media only screen and (max-width: 600px) {
-    .task-header {
-        margin-top: 8rem;
-        height: 24rem;
-    }
-
-    .task-header > img {
-        left: -8rem;
-        transform: none;
+    .yellowmesh {
+        left: 10%;
+        bottom: 10%;
     }
 }

@@ -1,8 +1,4 @@
-/* page-load animation */
 body {
-    /* opacity: 0;
-    transition: opacity 1s; */
-
     overflow: hidden;
 }
 
@@ -10,7 +6,7 @@ header {
     font-family: calvino grande;
     position: absolute;
     left: 50%;
-    bottom: 25%;
+    top: 60%;
     transform: translate(-50%);
     width: 20.125rem;
 }
@@ -30,10 +26,6 @@ h2 {
     top: 2em;
     transform: translate(-50%);
     width: 20.125rem;
-}
-
-p {
-    margin-top: 1;
 }
 
 .task-article {
@@ -84,7 +76,18 @@ p {
     right: -7em;
 
     filter: blur(5em);
-    opacity: 50%;
+}
+
+/* redmesh fade-in */
+.redmesh {
+    opacity: 0.5;
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
 }
 
 /* layout responsive voor telefoon */
@@ -94,7 +97,7 @@ p {
         height: 24rem;
     }
 
-    .task-header > img {
+    .task-header img {
         left: -8rem;
         transform: none;
     }
