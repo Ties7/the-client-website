@@ -1,6 +1,6 @@
 # Drop & Heal
 
-Dit is een design van de onboarding pagina's voor de Drop & Heal website/webapp.
+Dit is een design van de onboarding pagina's voor de Drop & Heal website/webapp uitgewerkt tot html en css.
 
 
 
