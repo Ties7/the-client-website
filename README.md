@@ -12,7 +12,7 @@ Dit is een design van de onboarding pagina's voor de Drop & Heal website/webapp 
 
 ## Beschrijving
 
-Hier staat de website:
+Hier staat de website: https://ties7.github.io/the-client-website/
 
 Tot nu toe bestaat de onboarding uit 4 pagina's.
 
