@@ -66,11 +66,24 @@ h2 {
     transform: translate(-50%);
 }
 
+
+/* layout responsive voor telefoon */
+@media only screen and (max-width: 600px) {
+    .task-header {
+        margin-top: 8rem;
+        height: 24rem;
+    }
+
+    .task-header img {
+        left: -8rem;
+        transform: none;
+    }
+}
+
+
 /* redmesh */
 .redmesh {
     position: absolute;
-    /* top: 45em;
-    right: 45em; */
 
     bottom: -7em;
     right: -7em;
@@ -87,18 +100,5 @@ h2 {
 @keyframes fadeIn {
     0% {
       opacity: 0;
-    }
-}
-
-/* layout responsive voor telefoon */
-@media only screen and (max-width: 600px) {
-    .task-header {
-        margin-top: 8rem;
-        height: 24rem;
-    }
-
-    .task-header img {
-        left: -8rem;
-        transform: none;
     }
 }

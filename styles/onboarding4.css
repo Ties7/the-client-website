@@ -66,6 +66,15 @@ h2 {
     transform: translate(-50%);
 }
 
+/* layout responsive voor telefoon */
+@media only screen and (max-width: 600px) {
+    .yellowmesh {
+        left: 10%;
+        bottom: 10%;
+    }
+}
+
+
 /* yellowmeshh */
 .yellowmesh {
     position: absolute;
@@ -87,13 +96,5 @@ h2 {
 @keyframes fadeIn {
     0% {
       opacity: 0;
-    }
-}
-
-/* layout responsive voor telefoon */
-@media only screen and (max-width: 600px) {
-    .yellowmesh {
-        left: 10%;
-        bottom: 10%;
     }
 }
